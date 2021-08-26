@@ -12,7 +12,7 @@ Há um esforço constante na indústria do petróleo para reduzir os custos e o 
 
 A proposta deste trabalho é, utilizando a base de dados de poços onde foram corridos perfis LWD e a cabo, treinar um algoritmo de aprendizado de máquina para estimar os perfis de fator foto elétrico a cabo a partir dos perfis LWD. Para isso trabalhamos tendo como dados de entrada os perfis LWD (gamma ray, nêutrons, densidade, caliper, e fator foto elétrico) tendo como alvo o perfil de fator fotoelétrico da perfilagem a cabo.
 
-O fator fotoelétrico é um subproduto do perfil de densidade, que é utilizado para identificação mineralógica, para definir o volume de quartzo/calcita/dolomita na rocha. 
+O fator fotoelétrico é um subproduto do perfil de densidade, que é utilizado para identificação mineralógica, para definir o volume de quartzo/calcita/dolomita na rocha.
 O coeficiente R2 do fator fotoelétrico dos valores medidos por perfil a cabo e LWD eram de XXX. Utilizando um modelo XGBoost, com ajuste dos hiperparâmetros foi possível alcançar um coeficiente R2 de XXXX.
 
 Matrícula: 192671146
