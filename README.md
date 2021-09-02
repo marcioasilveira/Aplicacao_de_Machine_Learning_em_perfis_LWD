@@ -22,7 +22,7 @@ Matrícula: 192671146
 
 Pontifícia Universidade Católica do Rio de Janeiro
 Curso de Pós Graduação Business Intelligence Master
-<img src='/imagem/FE_W1 previsto-reta45.png' height="20" width="20">
+<img src='/imagem/FE_W1 previsto-reta45.png' height="200" width="200">
 
 |Parâmetro|Abreviação|Descrição|Observação|
 |---------|----------|---------|----------|
