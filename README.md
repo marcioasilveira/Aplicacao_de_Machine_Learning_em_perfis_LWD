@@ -12,7 +12,7 @@ Há um esforço constante na indústria do petróleo para reduzir os custos e o 
 
 A proposta deste trabalho é, utilizando a base de dados de poços onde foram corridos perfis LWD e a cabo, treinar um algoritmo de aprendizado de máquina para estimar os perfis de fator foto elétrico a cabo a partir dos perfis LWD. Para isso usamos como dados de entrada os perfis LWD (gamma ray, nêutrons, densidade, caliper, e fator foto elétrico) tendo como alvo o perfil de fator fotoelétrico da perfilagem a cabo. O fator fotoelétrico é um subproduto do perfil de densidade, que é utilizado para identificação mineralógica, para definir o volume de quartzo/calcita/dolomita na rocha. O fator fotoelétrico medido em LWD é muito diferente do cabo em termos relativos.
 
-Foram fornecidos dados dois poços (w1 e w2) para treinamento e teste da rede. Os dados não são publicados por questões de confidencialidade. O coeficiente R2 entre a medida a cabo e a medida LWD é, respectivamente, -6.97 e -45.39 nos poços w1 e w2. Os dataset foi balanceado e foi realizado o escalonamento dos dados. Para a predição foi utilizado o algoritmo XGBoost com tuning dos hiperparâmetros.
+Foram fornecidos dados dois poços (w1 e w2) para treinamento e teste da rede. Os dados não são publicados por questões de confidencialidade. O coeficiente R2 entre a medida a cabo e a medida LWD é, respectivamente, -6.97 e -45.39 nos poços w1 e w2. Os dataset foi balanceado e foi realizado o escalonamento dos dados. Para a predição foi utilizado o algoritmo XGBoost com tunning dos hiperparâmetros.
 
 O coeficiente R2 entre os valores a cabo e os valores preditos aumento para de 0.53 e 0.72 para w1 e w2. 
 
@@ -22,7 +22,14 @@ Matrícula: 192671146
 
 Pontifícia Universidade Católica do Rio de Janeiro
 Curso de Pós Graduação Business Intelligence Master
+
+<img src='/imagem/FE_W1-reta45.png' height="200" width="200">
+<img src='/imagem/FE_W2-reta45.png' height="200" width="200">
+<img src='/imagem/FE_W1-kde.png' height="200" width="200">
+<img src='/imagem/FE_W2-kde.png' height="200" width="200">
 <img src='/imagem/FE_W1 previsto-reta45.png' height="200" width="200">
+<img src='/imagem/FE_W2 previsto-reta45.png' height="200" width="200">
+
 
 |Parâmetro|Abreviação|Descrição|Observação|
 |---------|----------|---------|----------|
