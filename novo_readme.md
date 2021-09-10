@@ -64,6 +64,14 @@ As curvas de densidade de probabilidade mostram que a distribuição dos valores
 
 <img src='/imagem/FE_W1-kde.png' height="300" width="300"> <img src='/imagem/FE_W2-kde.png' height="300" width="300">
 
+Comparativo das curvas de fator foto elétrico a cabo (vermelha), LWD (verde) e prevista (azul) -POÇO W1
+
+<img src='/imagem/curvas w1.png' height="400" width="250"> 
+
+Comparativo das curvas de fator foto elétrico a cabo (vermelha), LWD (verde) e prevista (azul) -POÇO W2
+
+<img src='/imagem/curva w2.png' height="400" width="250">
+
 ### 4. Conclusões
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pulvinar nisl vestibulum tortor fringilla, eget imperdiet neque condimentum. Proin vitae augue in nulla vehicula porttitor sit amet quis sapien. Nam rutrum mollis ligula, et semper justo maximus accumsan. Integer scelerisque egestas arcu, ac laoreet odio aliquet at. Sed sed bibendum dolor. Vestibulum commodo sodales erat, ut placerat nulla vulputate eu. In hac habitasse platea dictumst. Cras interdum bibendum sapien a vehicula.
