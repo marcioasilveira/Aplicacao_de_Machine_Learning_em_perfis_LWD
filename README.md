@@ -12,7 +12,7 @@ Há um esforço constante na indústria do petróleo para reduzir os custos e o 
 
 A proposta deste trabalho é, utilizando a base de dados de poços onde foram corridos perfis LWD e a cabo, treinar um algoritmo de aprendizado de máquina para estimar os perfis de fator foto elétrico a cabo a partir dos perfis LWD. Para isso usamos como dados de entrada os perfis LWD (gamma ray, nêutrons, densidade, caliper, e fator foto elétrico) tendo como alvo o perfil de fator fotoelétrico da perfilagem a cabo. O fator fotoelétrico é um subproduto do perfil de densidade, que é utilizado para identificação mineralógica, para definir o volume de quartzo/calcita/dolomita na rocha. O fator fotoelétrico medido em LWD é muito diferente do cabo em termos relativos.
 
-Foram fornecidos dados de dois poços (w1 e w2) para treinamento e teste da rede. Os dados não são publicados por questões de confidencialidade. O coeficiente R2 entre a medida a cabo e a medida LWD é, respectivamente, -6.97 e -45.39 nos poços w1 e w2. Os gráficos comparativos entre as medidas de fator fotoelétrico medidos na perfilagem LWD e perfilagem a cabo nos dois poços mostram que as medidas feitas por LWD apresentam valores superiores, provavelmente devido a influência da invasão de baritina na leitura do perfil LWD.
+Foram fornecidos dados de dois poços (w1 e w2) para treinamento e teste da rede. Os dados não são publicados por questões de confidencialidade. O coeficiente R2 entre a medida a cabo e a medida LWD é, respectivamente, -6.97 e -45.39 nos poços w1 e w2. Os gráficos comparativos entre as medidas de fator fotoelétrico medidos na perfilagem LWD e perfilagem a cabo nos dois poços mostram que as medidas feitas por LWD apresentam valores superiores, provavelmente devido a diferenças no ambiente de perfilagem.
 
 <img src='/imagem/FE_W1-reta45.png' height="300" width="300"> <img src='/imagem/FE_W2-reta45.png' height="300" width="300">
 
@@ -35,11 +35,5 @@ Curso de Pós Graduação Business Intelligence Master
 
 
 
-
-
-
-|Parâmetro|Abreviação|Descrição|Observação|
-|---------|----------|---------|----------|
-|2333|22|1|----------|
 
 
