@@ -8,13 +8,8 @@
 Trabalho apresentado ao curso [BI MASTER](https://ica.puc-rio.ai/bi-master) como pré-requisito para conclusão de curso e obtenção de crédito na disciplina "Projetos de Sistemas Inteligentes de Apoio à Decisão".
 
 <!-- para os links a seguir, caso os arquivos estejam no mesmo repositório que este README, não há necessidade de incluir o link completo: basta incluir o nome do arquivo, com extensão, que o GitHub completa o link corretamente -->
-- [Link para o código](https://github.com/link_do_repositorio). <!-- caso não aplicável, remover esta linha -->
-
-- [Link para a monografia](https://link_da_monografia.com). <!-- caso não aplicável, remover esta linha -->
-
-- Trabalhos relacionados: <!-- caso não aplicável, remover estas linhas -->
-    - [Nome do Trabalho 1](https://link_do_trabalho.com).
-    - [Nome do Trabalho 2](https://link_do_trabalho.com).
+- [Link para o código: Entrada de dados](https://github.com/marcioasilveira/Aplicacao_de_Machine_Learning_em_perfis_LWD/blob/main/TCC_Notebook1_entrada_de_dados.ipynb).
+- [Link para o código: Aplicação do algoritmo](https://github.com/marcioasilveira/Aplicacao_de_Machine_Learning_em_perfis_LWD/blob/main/TCC_Notebook2_FE_xgb.ipynb)  
 
 ---
 
@@ -50,7 +45,12 @@ Foram fornecidos dados de dois poços (w1 e w2) para treinamento e teste da rede
 
 <img src='/imagem/FE_W1-reta45.png' height="300" width="300"> <img src='/imagem/FE_W2-reta45.png' height="300" width="300">
 
-O dataset recebido não tinha dados faltantes nem espúrios. Os dados foram escalonados e foi feito seu balanceamento. Para a predição foi utilizado o algoritmo XGBoost, com tunning dos hiperparâmetros.
+O dataset recebido não tinha dados faltantes nem espúrios. Os dados foram escalonados e foi feito seu balanceamento. 
+
+ Dados desbalanceados                                               Dados após o balancemanto
+<img src='/imagem/desbalanceio.png' height="300" width="300"> <img src='/imagem/balanceado.png' height="300" width="300">
+
+Para a predição foi utilizado o algoritmo XGBoost, com tunning dos hiperparâmetros.
 
 ### 3. Resultados
 
