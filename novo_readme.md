@@ -1,9 +1,7 @@
 <!-- antes de enviar a versão final, solicitamos que todos os comentários, colocados para orientação ao aluno, sejam removidos do arquivo -->
-# Título do Trabalho
-
-#### Aluno: [Nome Sobrenome](https://github.com/link_do_github)
-#### Orientadora: [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github).
-#### Co-orientador(/a/es/as): [Nome Sobrenome](https://github.com/link_do_github) e [Nome Sobrenome](https://github.com/link_do_github). <!-- caso não aplicável, remover esta linha -->
+# Aplicação de Machine Learning em perfis LWD
+#### Aluno: [Márcio Albuquerque Silveira](https://github.com/marcioasilveira)
+#### Orientadora: [Amanda Lemette](https://github.com/amandalemette) e [Julia Potratz](https://github.com/jupotratz).
 
 ---
 
