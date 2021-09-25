@@ -29,11 +29,14 @@ Foram fornecidos dados de dois poços (w1 e w2) para treinamento e teste da rede
 
 <img src='/imagem/FE_W1-reta45.png' height="250" width="300"> <img src='/imagem/FE_W2-reta45.png' height="250" width="300">
 
-O dataset recebido não tinha dados faltantes nem espúrios. Os dados foram escalonados e foi feito seu balanceamento. 
+O dataset recebido não tinha dados faltantes nem espúrios. No entanto estavam muito desbalanceados. 
  
 Distribuição do Dataset original.               
 
 <img src='/imagem/desbalanceio.png' height="250" width="300"> 
+
+Para balacear as amostras foram gerados dados sintéticos do poço com menor quantidade de dados. Para isso foi utilizado a ferramenta SMOTE (Synthetic Minority Over-sampling Technique) da biblioteca python imblearn. O SMOTE utiliza o algoritmo k-nearest neighbor (KNN) para gerar os dados sintéticos.
+
 
 Dataset após o balanceamento.
 
