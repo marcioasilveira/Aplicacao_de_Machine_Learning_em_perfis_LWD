@@ -46,7 +46,7 @@ Para avaliar a performance foi utilizado o erro quadrático médio, obtido com u
 
 ### 3. Resultados
 
-O ajuste realizado conseguiu reduzir significantemente o MSE nos dois poços analisados.
+O ajuste realizado conseguiu reduzir significantemente o MSE nos dois poços analisados, o que pode ser verificado pelo alinhamento dos valores previstos pelo algoritimo e os valores obtidos na perfilagem a cabo.
 
 |   MSE   |  cabo x LWD    |   cabo x predito   |
 | :---:  |     :---:      |         :---:      |
